@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"/>
+    <title>Product Landing Page</title>
+</head>
+
+<body class="bg-stone-100 font-['Lato']">
+        <header id="header" class="top-0 sticky pt-5 bg-stone-100">
+            <nav id="nav-bar" class="flex justify-between">
+                <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" class="w-64">
+                <div class="flex space-x-20 mr-10 ">
+                    <a class="nav-link" href="#features">Features</a>
+                    <a class="nav-link" href="#how">How It Works</a>
+                    <a class="nav-link" href="#pricing">Pricing</a>
+                </div>
+            </nav>
+        </header>
+        <div class="container mx-auto space-y-20 ">
+            <div id="features" class="flex justify-center">
+                <div class="flex flex-col">
+                    <h2 id="header" class=" font-sans font-semibold mt-3 text-xl mb-5">Handcrafted, home-made masterpieces</h2>
+                    <form action="https://www.freecodecamp.com/email-submit" id="form" class="flex justify-center">
+                        <div class="text-center">
+                            <div>
+                                <input name="email" id="email" type="email" placeholder="Enter your email address" class="px-6 border border-black" required>
+                            </div>
+                            <div>
+                                <input id="submit" type="submit" class="mt-3 bg-[#f1c40f] px-5 py-px font-bold text-l" value="Get Started">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div id="how" class="flex justify-center">
+                <div class="flex flex-col w-4/6">
+                    <div class="flex items-center space-x-10">
+                        <div class="flex items-center justify-center w-[10vw] h-[125px] text-[#f97316]">
+                            <i class="fa fa-3x fa-fire"></i>
+                        </div>
+                        <div>
+                            <h1 class="text-xl font-bold">Premium Materials</h1>
+                            <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center space-x-10">
+                        <div class="flex items-center justify-center w-[12vw] h-[125px] text-[#f97316]">
+                            <i class="fa fa-3x fa-truck"></i>
+                        </div>
+                        <div>
+                            <h1 class="text-xl font-bold">Fast Shipping</h1>
+                            <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center space-x-10">
+                        <div class="flex items-center justify-center w-[12vw] h-[125px] text-[#f97316]">
+                            <i class="fa fa-3x fa-battery-full"></i>
+                          </div>
+                        <div>
+                            <h1 class="text-xl font-bold">Quality Assurance</h1>
+                            <p>or every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <div>
+                    <iframe width="500" id="video" height="300" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="YouTube video player" ></iframe>
+                </div>
+            </div>
+            <div id="pricing" class=" flex justify-center">
+                <div class="grid grid-cols-3 gap-5 w-4/6">
+                    <div class="border border-black text-center space-y-4">
+                        <h1 class="font-semibold bg-gray-200 py-2.5">TENOR TROMBONE</h1>
+                        <h1 class="font-bold text-2xl">$600</h1>
+                        <ol>
+                            <li>Lorem ipsum.</li>
+                            <li>Lorem ipsum.</li>
+                            <li>Lorem ipsum dolor.</li>
+                            <li>Lorem ipsum.</li>
+                        </ol>
+                        <div class="flex justify-center">
+                            <div class="mb-5 bg-[#f1c40f] py-2 mt-6 px-7">
+                                <a href="# ">SELECT</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border border-black text-center space-y-4">
+                        <h1 class="font-semibold bg-gray-200 py-2.5">BASS TROMBONE</h1>
+                        <h1 class="font-bold text-2xl">$900</h1>
+                        <ol>
+                            <li>Lorem ipsum.</li>
+                            <li>Lorem ipsum.</li>
+                            <li>Lorem ipsum dolor.</li>
+                            <li>Lorem ipsum.</li>
+                        </ol>
+                        <div class="flex justify-center">
+                            <div class="mb-5 bg-[#f1c40f] py-2 mt-6 px-7">
+                                <a href="# ">SELECT</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border border-black text-center space-y-4">
+                        <h1 class="font-semibold bg-gray-200 py-2.5">VALVE TROMBONE</h1>
+                        <h1 class="font-bold text-2xl">$1200</h1>
+                        <ol>
+                            <li>Plays similar to a Trumpet.</li>
+                            <li>Great for Jazz Bands.</li>
+                            <li>Lorem ipsum dolor.</li>
+                            <li>Lorem ipsum.</li>
+                        </ol>
+                        <div class="flex justify-center">
+                            <div class="mb-5 bg-[#f1c40f] py-2 mt-6 px-7">
+                                <a href="#">SELECT</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="bg-gray-200 py-3 justify-end mx-48">
+                <div class="flex space-x-3 flex justify-end mx-12">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="flex justify-end mx-10 text-gray-500">
+                    <h5>Copyright 2016, Original Trombones</h5>
+                </div>
+            </div>
+        </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js "></script>
+</body>
+
+</html>
